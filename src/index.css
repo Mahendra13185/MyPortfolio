@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ===== GLOBAL BACKGROUND ===== */
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(
+    135deg,
+    #1fd1c3 0%,
+    #2bb8c9 35%,
+    #3b82b9 65%,
+    #4f5fa8 100%
+  );
+  background-attachment: fixed;
+  color: #f8fafc;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
