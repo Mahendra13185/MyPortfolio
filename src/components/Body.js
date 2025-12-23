@@ -217,7 +217,7 @@ const Body = () => {
 
               {[
                 {
-                  title: "Build Your Own Static Website",
+                  title: "Build Your Own Dynamic Website",
                   file: "/certificates/Build-your-own-static-website.pdf",
                 },
                 {
