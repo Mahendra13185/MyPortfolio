@@ -199,7 +199,7 @@ const Body = () => {
             </div>
           </Reveal>
         </section>
-        {/* ================= CERTIFICATIONS ================= */}
+       
         {/* ================= CERTIFICATIONS ================= */}
         <section
           id="certifications"
