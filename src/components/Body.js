@@ -200,77 +200,76 @@ const Body = () => {
           </Reveal>
         </section>
         {/* ================= CERTIFICATIONS ================= */}
+        {/* ================= CERTIFICATIONS ================= */}
         <section
           id="certifications"
-          className="min-h-screen px-6 py-20 scroll-mt-20"
+          className="relative py-24 text-white"
         >
-          <Reveal>
-            <div className="max-w-6xl mx-auto">
-              {/* Heading */}
-              <h2 className="text-3xl md:text-4xl font-semibold mb-12 text-white">
-                Certifications
-              </h2>
+          <div className="max-w-6xl mx-auto px-6">
+            
+            {/* Heading */}
+            <h2 className="text-3xl md:text-4xl font-semibold mb-12 text-center">
+              Certifications
+            </h2>
 
-              {/* Certificates Grid */}
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-                {[
-                  {
-                    title: "Build Your Own Static Website",
-                    file: "/certificates/Build-your-own-static-website.pdf",
-                  },
-                  {
-                    title: "Build Your Own Responsive Website",
-                    file: "/certificates/Build-your-own-responsive-website.pdf",
-                  },
-                  {
-                    title: "Developer Foundations",
-                    file: "/certificates/Developer-Foundation.pdf",
-                  },
-                  {
-                    title: "Introduction to Databases",
-                    file: "/certificates/Introduction-to-Databases.pdf",
-                  },
-                  {
-                    title: "JavaScript Essentials",
-                    file: "/certificates/Javascript-Essentials.pdf",
-                  },
-                  {
-                    title: "Programming Foundations with Python",
-                    file: "/certificates/Programming-Foundation-With-Python.pdf",
-                  },
-                  {
-                    title: "Responsive Web Design using Flexbox",
-                    file: "/certificates/Responsive-Web-design-using-flexbox.pdf",
-                  },
-                ].map((cert, index) => (
-                  <div
-                    key={index}
-                    className="group p-6 rounded-xl bg-white/10 backdrop-blur-md 
-                    border border-white/20 transition-all duration-300
-                    hover:-translate-y-2 hover:shadow-xl hover:border-[#6BCCD9]/70"
+            {/* Certificates Grid */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+              {[
+                {
+                  title: "Build Your Own Static Website",
+                  file: "/certificates/Build-your-own-static-website.pdf",
+                },
+                {
+                  title: "Build Your Own Responsive Website",
+                  file: "/certificates/Build-your-own-responsive-website.pdf",
+                },
+                {
+                  title: "Developer Foundation",
+                  file: "/certificates/Developer-Foundation.pdf",
+                },
+                {
+                  title: "Introduction to Databases",
+                  file: "/certificates/Introduction-to-Databases.pdf",
+                },
+                {
+                  title: "JavaScript Essentials",
+                  file: "/certificates/Javascript-Essentials.pdf",
+                },
+                {
+                  title: "Programming Foundation With Python",
+                  file: "/certificates/Programming-Foundation-With-Python.pdf",
+                },
+                {
+                  title: "Responsive Web Design Using Flexbox",
+                  file: "/certificates/Responsive-Web-design-using-flexbox.pdf",
+                },
+              ].map((cert, index) => (
+                <div
+                  key={index}
+                  className="group rounded-xl border border-white/10 bg-white/5 p-6
+                            hover:-translate-y-2 hover:shadow-xl hover:shadow-cyan-500/20
+                            transition-all duration-300"
+                >
+                  <h3 className="text-lg font-medium mb-4">
+                    {cert.title}
+                  </h3>
+
+                  <a
+                    href={cert.file}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block mt-2 text-cyan-400 hover:text-cyan-300 hover:underline"
                   >
-                    <h3 className="text-lg font-medium text-white mb-6">
-                      {cert.title}
-                    </h3>
+                    View Certificate →
+                  </a>
+                </div>
+              ))}
 
-                    <a
-                      href={cert.file}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center justify-center
-                      px-5 py-2 rounded-full text-sm font-medium
-                      bg-[#6BCCD9]/20 text-[#6BCCD9]
-                      hover:bg-[#6BCCD9] hover:text-black
-                      transition-all"
-                    >
-                      View Certificate
-                    </a>
-                  </div>
-                ))}
-              </div>
             </div>
-          </Reveal>
+          </div>
         </section>
+
         {/* ================= RESUME ================= */}
         <section
             id="resume"
