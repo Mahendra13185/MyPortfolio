@@ -38,7 +38,9 @@ const Body = () => {
       <Header />
       <main className="pt-20 relative">
 
-      <div className="fixed inset-0 bg-black/25 pointer-events-none -z-10" />
+      <div className="fixed inset-0 bg-gradient-to-br from-[#0B0F14] via-[#0E131A] to-[#0B0F14] -z-20" />
+
+
 
         {/* ================= HOME ================= */}
         <section
@@ -49,11 +51,14 @@ const Body = () => {
 
               {/* PROFILE IMAGE */}
               <div className="flex justify-center">
-                <img
-                  src="/profile.jpg"
-                  alt="Mahendra"
-                  className="w-44 h-44 md:w-56 md:h-56 rounded-full border-4 border-white/30 object-cover"
-                />
+                <div className="p-[3px] rounded-full bg-gradient-to-tr from-[#6BCCD9] via-[#28B9CB] to-[#6A8386]">
+                  <img
+                    src="/profile.jpg"
+                    alt="Mahendra"
+                    className="w-44 h-44 md:w-56 md:h-56 rounded-full bg-[#0B0F14] object-cover"
+                  />
+                </div>
+
               </div>
 
               {/* TEXT CONTENT */}
