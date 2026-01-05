@@ -358,7 +358,14 @@ const Body = () => {
             </h2>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              <ProjectCard />
+              <ProjectCard
+                title="Click Counter App"
+                description="A React-based counter application with increment, decrement, and reset functionality, featuring a modern UI with animations and gradients."
+                tech="React · JavaScript · CSS"
+                image="/clickcounter.jpg"
+                github="https://github.com/Mahendra13185/click-counter.git"
+                live=""     // add live demo link later
+              />
               <ProjectCard />
               <ProjectCard />
             </div>
