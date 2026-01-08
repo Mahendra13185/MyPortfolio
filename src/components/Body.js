@@ -364,10 +364,26 @@ const Body = () => {
                 tech="React · JavaScript · CSS"
                 image="/clickcounter.jpg"
                 github="https://github.com/Mahendra13185/click-counter.git"
-                live=""     // add live demo link later
+                live="https://mahisclickcounter.netlify.app"
               />
-              <ProjectCard />
-              <ProjectCard />
+              <ProjectCard
+                title="Speedometer App"
+                description="A dynamic React speedometer application that simulates vehicle speed control with accelerate and brake actions. The UI updates in real time, changes visual indicators based on speed levels, and demonstrates effective state management using class components."
+                tech="React, JavaScript, CSS"
+                image="/speedometer.jpg"
+                github="https://github.com/Mahendra13185/speedometer"
+                live="https:mahisspeedometer.netlify.app"
+              />
+
+              <ProjectCard
+                title="Destination Search App"
+                description="A responsive React application that allows users to search and filter travel destinations in real time. Features a modern glassmorphism UI with blurred cards, gradient background, and smooth hover animations, showcasing effective state management and dynamic filtering."
+                tech="React, JavaScript, CSS (Glassmorphism)"
+                image="/destinyProject.jpg"
+                github="https://github.com/Mahendra13185/DestinySearch"
+                live="https://destinyplacesearch.netlify.app"
+              />
+
             </div>
           </Reveal>
         </section>
