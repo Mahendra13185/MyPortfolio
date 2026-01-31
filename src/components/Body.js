@@ -359,12 +359,13 @@ const Body = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <ProjectCard
-                title="Click Counter App"
-                description="A React-based counter application with increment, decrement, and reset functionality, featuring a modern UI with animations and gradients."
-                tech="React · JavaScript · CSS"
-                image="/clickcounter.jpg"
-                github="https://github.com/Mahendra13185/click-counter.git"
-                live="https://mahisclickcounter.netlify.app"
+                title="Netflix Clone App"
+                description="A Netflix-inspired web application built with React, featuring movie listings, responsive design, and a modern UI similar to Netflix."
+                tech="React · JavaScript · CSS · API Integration"
+                image="/Netflix1.png"
+                github="https://github.com/Mahendra13185/netflix-clone-app"
+                live="https://mahis-netfli-x.netlify.app/login"
+
               />
               <ProjectCard
                 title="Speedometer App"
